@@ -1,0 +1,233 @@
+.header-app {
+  background: #f4f7f9 !important;
+  border: 1px solid #dce0e4;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.home-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column !important;
+}
+
+.header-title {
+  color: #4d555e !important;
+  font-family: "Nunito" !important;
+}
+
+.home-title {
+  font-family: "Roboto" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px !important;
+  line-height: 10px;
+  color: #4d555e !important;
+}
+
+.home-subtitle {
+  font-family: "Roboto" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px !important;
+  line-height: 10px;
+  color: #8c9297 !important;
+}
+
+.home-card {
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 20px !important;
+  color: white !important;
+}
+.card-title,
+.card-subtitle {
+  font-family: "Roboto";
+}
+.card-title {
+  font-size: 45px !important;
+  font-weight: 500 !important;
+}
+.card-subtitle {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-card {
+  display: "flex";
+  background: #fefdfd;
+  box-shadow: 0px 1px 5px rgba(200, 211, 232, 0.75);
+  border-radius: 8px !important;
+}
+.task-card-title {
+  font-family: "Nunito" !important;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  color: #00ba88 !important;
+}
+
+.task-card-subtitle {
+  color: #8c9297 !important;
+}
+
+.task-card-btn2 {
+  font-family: "Roboto" !important;
+  font-weight: 400 !important;
+  color: #bac4e7 !important;
+  border: 1px solid #bac4e7 !important;
+  border-radius: 50px !important;
+}
+
+.task-card-action {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.today-date {
+  color: #6a737d !important;
+  font-family: "Nunito" !important;
+  font-size: 30px !important;
+}
+
+.msg-icon-btn {
+  background-color: #6a737d !important;
+  margin-right: 30px !important;
+  color: white !important;
+}
+
+.subCard-task {
+  background: #fbfcfc !important;
+  border-radius: 10px !important;
+  margin: 3px !important;
+  text-align: center;
+  padding: 10px !important;
+}
+
+.task-card-detail {
+  display: "flex" !important;
+  flex-direction: column !important;
+  background: #fefdfd;
+  box-shadow: 0px 1px 5px rgba(200, 211, 232, 0.75);
+  border-radius: 8px !important;
+  margin-bottom: 30px !important;
+}
+
+.task-detail-description {
+  font-family: "Nunito" !important;
+  font-weight: 300 !important;
+  font-size: 35px !important;
+  color: #717c99 !important;
+  padding: 30px;
+}
+
+.task-avatar-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bac4e7 !important;
+  padding: 5px !important;
+  border-radius: 50px !important;
+  background: #537def !important;
+  color: white !important;
+}
+
+.avatar-chip-span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+}
+
+.MuiAvatar-root.MuiAvatar-circular.MuiAvatar-colorDefault.MuiAvatarGroup-avatar.css-sxh3gq-MuiAvatar-root-MuiAvatarGroup-avatar {
+  height: 30px;
+  width: 30px;
+}
+
+.explore-text-box {
+  text-align: center !important;
+  padding: 30px !important;
+}
+.explore-text {
+  color: #537def !important;
+  font-family: "Nunito" !important;
+  font-size: 30px !important;
+  text-decoration: none !important;
+}
+
+.light-card {
+  background: #f5f8ff;
+  border-radius: 10px !important;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.07);
+  width: 100px !important;
+}
+
+.light-card-text {
+  font-family: "Nunito" !important;
+  font-weight: 600 !important;
+  color: #cbd5f7 !important;
+  text-align: center !important;
+  font-size: 35px !important;
+  padding-top: 15px !important;
+}
+.light-card-btn {
+  background: rgb(244, 244, 244) !important;
+  margin: 3px !important;
+  color: #cbd5f7 !important;
+  font-size: 5px !important;
+}
+
+.month-mood-text {
+  font-family: "Nunito" !important;
+  font-weight: 600 !important;
+  color: black !important;
+  text-align: center;
+  font-size: 25px !important;
+}
+
+.light-card2 {
+  background: linear-gradient(180deg, #8BF7D1 0%, #46C895 100%);
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+  width: 100px !important;
+}
+
+.light-card-text2{
+  color: white !important
+}
+
+.light-card3{
+  background: linear-gradient(180deg, #93e9cc 0%, #03985d 100%) !important;
+}
+
+.light-card4{
+  background-image: url(./../Assets/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px !important;
+  display: flex ;
+  align-items: flex-end;
+}
+
+
+.light-card5{
+
+  box-shadow: inset 0px 0px 5px rgba(38, 83, 205, 0.25);
+   border-radius: 10px !important;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.light-card-text5{
+  color: #537DEF !important;
+  font-size: 45px !important;
+}
