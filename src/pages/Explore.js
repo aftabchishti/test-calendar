@@ -218,7 +218,7 @@ const Home = () => {
                 No Mood Entered Today
               </Typography>
             </Grid>
-          </Stack>
+          </Stack> 
         </Grid>
         <Grid item xs={12} md={6} lg={6} spacing={5}>
           <Stack component="div" mb={4}>
